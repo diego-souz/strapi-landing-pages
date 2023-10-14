@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_menu_menu_links",
+  "info": {
+    "displayName": "menu_link",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "link_text": {
+      "type": "string",
+      "required": true,
+      "minLength": 3
+    },
+    "url": {
+      "type": "text",
+      "required": true,
+      "minLength": 5
+    },
+    "open_in_new_tab": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}
